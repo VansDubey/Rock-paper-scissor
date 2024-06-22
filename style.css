@@ -1,0 +1,95 @@
+*{
+    margin:0px;
+    padding:0px;
+    text-align:center;
+}
+
+#top{
+    background-color: black;
+}
+.heading{
+    
+    color:white;
+
+}
+
+#rock{
+    background-image: url("Stone.jpg");
+    background-size: cover;
+    height:100px;
+    width:100px;
+    margin-right:40px;
+    border-radius:50%;
+  
+
+}
+
+#paper{
+    background-image: url("Paper.jpg");
+    background-size: cover;
+    height:100px;
+    width:100px;
+    margin-right:40px;
+    border-radius:50%;
+     
+
+}
+#scissors{
+    background-image: url("Scissors.jpg");
+    background-size: cover;
+    height:100px;
+    width:100px;
+    border-radius:50%;
+
+     
+
+}
+.pic{
+    padding:40px;
+    margin:25px;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    align-items:center;
+   
+}
+.content{
+    padding:40px;
+    display:flex;
+    justify-content:center;
+    align-content:center;
+    font-size:large;
+    font-style: unset;
+    font-weight:700;
+    
+
+}
+
+.you{
+    margin-right:20px;
+    
+}
+
+.btn{
+    Padding:40px;
+   
+}
+
+button{
+    background-color: black;
+    color:aliceblue;
+    height:50px;
+    width:350px;
+    border-radius:10px;
+    font-size:large;
+    font-style:unset;
+
+}
+.compete{
+    padding:10px;
+}
+ .choice:hover{
+    opacity:0.5;
+    
+ }
+
